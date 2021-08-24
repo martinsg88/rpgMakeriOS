@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		510B523324CC1E9D0047BADB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510B523224CC1E9D0047BADB /* AppDelegate.swift */; };
+		510B523524CC1E9D0047BADB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510B523424CC1E9D0047BADB /* SceneDelegate.swift */; };
+		510B523724CC1E9D0047BADB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510B523624CC1E9D0047BADB /* ViewController.swift */; };
+		510B523A24CC1E9D0047BADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 510B523824CC1E9D0047BADB /* Main.storyboard */; };
+		510B523C24CC1E9E0047BADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 510B523B24CC1E9E0047BADB /* Assets.xcassets */; };
+		510B523F24CC1E9E0047BADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 510B523D24CC1E9E0047BADB /* LaunchScreen.storyboard */; };
+		510B524A24CC1E9E0047BADB /* TheBenzaRPGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510B524924CC1E9E0047BADB /* TheBenzaRPGTests.swift */; };
+		510B525524CC1E9E0047BADB /* TheBenzaRPGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510B525424CC1E9E0047BADB /* TheBenzaRPGUITests.swift */; };
+		515A5C7A252AAD8600069A6C /* instructions.png in Resources */ = {isa = PBXBuildFile; fileRef = 515A5C79252AAD8600069A6C /* instructions.png */; };
+		5171BC5324F3FCCB00F09799 /* opening_movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 517E6BF124E2A8C400EFF4C8 /* opening_movie.mp4 */; };
+		51AC2BD624CC2A38002B4371 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 51AC2BD524CC2A38002B4371 /* www */; };
+		51AE5F8524D5AF010072FEAC /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AE5F8424D5AF010072FEAC /* NetworkExtension.framework */; };
+		51E21E6724D83BF700776465 /* DummyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51E21E6624D83BF700776465 /* DummyClass.swift */; };
+		B56EE36A9BF3E6A4ECECE85E /* Pods_TheBenzaRPG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98DF492889DD9AAF920CB6B5 /* Pods_TheBenzaRPG.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		510B524624CC1E9E0047BADB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 510B522724CC1E9D0047BADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 510B522E24CC1E9D0047BADB;
+			remoteInfo = TheBenzaRPG;
+		};
+		510B525124CC1E9E0047BADB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 510B522724CC1E9D0047BADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 510B522E24CC1E9D0047BADB;
+			remoteInfo = TheBenzaRPG;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		510B522F24CC1E9D0047BADB /* The Benza RPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Benza RPG.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		510B523224CC1E9D0047BADB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		510B523424CC1E9D0047BADB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		510B523624CC1E9D0047BADB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		510B523924CC1E9D0047BADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		510B523B24CC1E9E0047BADB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		510B523E24CC1E9E0047BADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		510B524024CC1E9E0047BADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		510B524524CC1E9E0047BADB /* TheBenzaRPGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheBenzaRPGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		510B524924CC1E9E0047BADB /* TheBenzaRPGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheBenzaRPGTests.swift; sourceTree = "<group>"; };
+		510B524B24CC1E9E0047BADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		510B525024CC1E9E0047BADB /* TheBenzaRPGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheBenzaRPGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		510B525424CC1E9E0047BADB /* TheBenzaRPGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheBenzaRPGUITests.swift; sourceTree = "<group>"; };
+		510B525624CC1E9E0047BADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		515A5C79252AAD8600069A6C /* instructions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instructions.png; sourceTree = "<group>"; };
+		517E6BF124E2A8C400EFF4C8 /* opening_movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = opening_movie.mp4; sourceTree = "<group>"; };
+		51AC2BD524CC2A38002B4371 /* www */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = www; sourceTree = SOURCE_ROOT; };
+		51ADC9CA265A7AD40011C469 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		51ADC9CB265A7AD40011C469 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		51AE5F8324D5AF010072FEAC /* The Benza RPG.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "The Benza RPG.entitlements"; sourceTree = "<group>"; };
+		51AE5F8424D5AF010072FEAC /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		51E21E6624D83BF700776465 /* DummyClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyClass.swift; sourceTree = "<group>"; };
+		76CB6C7D6C922B1B4C5B8D4B /* Pods-TheBenzaRPG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheBenzaRPG.debug.xcconfig"; path = "Target Support Files/Pods-TheBenzaRPG/Pods-TheBenzaRPG.debug.xcconfig"; sourceTree = "<group>"; };
+		7D76CD94C06FFC0068303B1C /* Pods-TheBenzaRPG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheBenzaRPG.release.xcconfig"; path = "Target Support Files/Pods-TheBenzaRPG/Pods-TheBenzaRPG.release.xcconfig"; sourceTree = "<group>"; };
+		98DF492889DD9AAF920CB6B5 /* Pods_TheBenzaRPG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheBenzaRPG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		510B522C24CC1E9D0047BADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56EE36A9BF3E6A4ECECE85E /* Pods_TheBenzaRPG.framework in Frameworks */,
+				51AE5F8524D5AF010072FEAC /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510B524224CC1E9E0047BADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510B524D24CC1E9E0047BADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4418D9C5B432FCF1D8F465D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51AE5F8424D5AF010072FEAC /* NetworkExtension.framework */,
+				98DF492889DD9AAF920CB6B5 /* Pods_TheBenzaRPG.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		510B522624CC1E9D0047BADB = {
+			isa = PBXGroup;
+			children = (
+				510B523124CC1E9D0047BADB /* TheBenzaRPG */,
+				510B524824CC1E9E0047BADB /* TheBenzaRPGTests */,
+				510B525324CC1E9E0047BADB /* TheBenzaRPGUITests */,
+				510B523024CC1E9D0047BADB /* Products */,
+				FC1FF00F916C795C88499286 /* Pods */,
+				4418D9C5B432FCF1D8F465D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		510B523024CC1E9D0047BADB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				510B522F24CC1E9D0047BADB /* The Benza RPG.app */,
+				510B524524CC1E9E0047BADB /* TheBenzaRPGTests.xctest */,
+				510B525024CC1E9E0047BADB /* TheBenzaRPGUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		510B523124CC1E9D0047BADB /* TheBenzaRPG */ = {
+			isa = PBXGroup;
+			children = (
+				51AE5F8324D5AF010072FEAC /* The Benza RPG.entitlements */,
+				510B523224CC1E9D0047BADB /* AppDelegate.swift */,
+				510B523424CC1E9D0047BADB /* SceneDelegate.swift */,
+				510B523624CC1E9D0047BADB /* ViewController.swift */,
+				51E21E6624D83BF700776465 /* DummyClass.swift */,
+				510B523824CC1E9D0047BADB /* Main.storyboard */,
+				510B523B24CC1E9E0047BADB /* Assets.xcassets */,
+				510B523D24CC1E9E0047BADB /* LaunchScreen.storyboard */,
+				510B524024CC1E9E0047BADB /* Info.plist */,
+				517E6BF124E2A8C400EFF4C8 /* opening_movie.mp4 */,
+				515A5C79252AAD8600069A6C /* instructions.png */,
+				51AC2BD524CC2A38002B4371 /* www */,
+			);
+			path = TheBenzaRPG;
+			sourceTree = "<group>";
+		};
+		510B524824CC1E9E0047BADB /* TheBenzaRPGTests */ = {
+			isa = PBXGroup;
+			children = (
+				510B524924CC1E9E0047BADB /* TheBenzaRPGTests.swift */,
+				510B524B24CC1E9E0047BADB /* Info.plist */,
+			);
+			path = TheBenzaRPGTests;
+			sourceTree = "<group>";
+		};
+		510B525324CC1E9E0047BADB /* TheBenzaRPGUITests */ = {
+			isa = PBXGroup;
+			children = (
+				510B525424CC1E9E0047BADB /* TheBenzaRPGUITests.swift */,
+				510B525624CC1E9E0047BADB /* Info.plist */,
+			);
+			path = TheBenzaRPGUITests;
+			sourceTree = "<group>";
+		};
+		FC1FF00F916C795C88499286 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76CB6C7D6C922B1B4C5B8D4B /* Pods-TheBenzaRPG.debug.xcconfig */,
+				7D76CD94C06FFC0068303B1C /* Pods-TheBenzaRPG.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		510B522E24CC1E9D0047BADB /* TheBenzaRPG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 510B525924CC1E9E0047BADB /* Build configuration list for PBXNativeTarget "TheBenzaRPG" */;
+			buildPhases = (
+				CFB77EFF24D6B88943498270 /* [CP] Check Pods Manifest.lock */,
+				510B522B24CC1E9D0047BADB /* Sources */,
+				510B522C24CC1E9D0047BADB /* Frameworks */,
+				510B522D24CC1E9D0047BADB /* Resources */,
+				E7C519B95766FB69948B3C17 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheBenzaRPG;
+			productName = TheBenzaRPG;
+			productReference = 510B522F24CC1E9D0047BADB /* The Benza RPG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		510B524424CC1E9E0047BADB /* TheBenzaRPGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 510B525C24CC1E9E0047BADB /* Build configuration list for PBXNativeTarget "TheBenzaRPGTests" */;
+			buildPhases = (
+				510B524124CC1E9E0047BADB /* Sources */,
+				510B524224CC1E9E0047BADB /* Frameworks */,
+				510B524324CC1E9E0047BADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				510B524724CC1E9E0047BADB /* PBXTargetDependency */,
+			);
+			name = TheBenzaRPGTests;
+			productName = TheBenzaRPGTests;
+			productReference = 510B524524CC1E9E0047BADB /* TheBenzaRPGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		510B524F24CC1E9E0047BADB /* TheBenzaRPGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 510B525F24CC1E9E0047BADB /* Build configuration list for PBXNativeTarget "TheBenzaRPGUITests" */;
+			buildPhases = (
+				510B524C24CC1E9E0047BADB /* Sources */,
+				510B524D24CC1E9E0047BADB /* Frameworks */,
+				510B524E24CC1E9E0047BADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				510B525224CC1E9E0047BADB /* PBXTargetDependency */,
+			);
+			name = TheBenzaRPGUITests;
+			productName = TheBenzaRPGUITests;
+			productReference = 510B525024CC1E9E0047BADB /* TheBenzaRPGUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		510B522724CC1E9D0047BADB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = com.martins.dev;
+				TargetAttributes = {
+					510B522E24CC1E9D0047BADB = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					510B524424CC1E9E0047BADB = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 510B522E24CC1E9D0047BADB;
+					};
+					510B524F24CC1E9E0047BADB = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 510B522E24CC1E9D0047BADB;
+					};
+				};
+			};
+			buildConfigurationList = 510B522A24CC1E9D0047BADB /* Build configuration list for PBXProject "TheBenzaRPG" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = 510B522624CC1E9D0047BADB;
+			productRefGroup = 510B523024CC1E9D0047BADB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				510B522E24CC1E9D0047BADB /* TheBenzaRPG */,
+				510B524424CC1E9E0047BADB /* TheBenzaRPGTests */,
+				510B524F24CC1E9E0047BADB /* TheBenzaRPGUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		510B522D24CC1E9D0047BADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5171BC5324F3FCCB00F09799 /* opening_movie.mp4 in Resources */,
+				51AC2BD624CC2A38002B4371 /* www in Resources */,
+				510B523F24CC1E9E0047BADB /* LaunchScreen.storyboard in Resources */,
+				510B523C24CC1E9E0047BADB /* Assets.xcassets in Resources */,
+				515A5C7A252AAD8600069A6C /* instructions.png in Resources */,
+				510B523A24CC1E9D0047BADB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510B524324CC1E9E0047BADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510B524E24CC1E9E0047BADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CFB77EFF24D6B88943498270 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheBenzaRPG-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7C519B95766FB69948B3C17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheBenzaRPG/Pods-TheBenzaRPG-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheBenzaRPG/Pods-TheBenzaRPG-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheBenzaRPG/Pods-TheBenzaRPG-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		510B522B24CC1E9D0047BADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				510B523724CC1E9D0047BADB /* ViewController.swift in Sources */,
+				51E21E6724D83BF700776465 /* DummyClass.swift in Sources */,
+				510B523324CC1E9D0047BADB /* AppDelegate.swift in Sources */,
+				510B523524CC1E9D0047BADB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510B524124CC1E9E0047BADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				510B524A24CC1E9E0047BADB /* TheBenzaRPGTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510B524C24CC1E9E0047BADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				510B525524CC1E9E0047BADB /* TheBenzaRPGUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		510B524724CC1E9E0047BADB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 510B522E24CC1E9D0047BADB /* TheBenzaRPG */;
+			targetProxy = 510B524624CC1E9E0047BADB /* PBXContainerItemProxy */;
+		};
+		510B525224CC1E9E0047BADB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 510B522E24CC1E9D0047BADB /* TheBenzaRPG */;
+			targetProxy = 510B525124CC1E9E0047BADB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		510B523824CC1E9D0047BADB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				510B523924CC1E9D0047BADB /* Base */,
+				51ADC9CA265A7AD40011C469 /* ja */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		510B523D24CC1E9E0047BADB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				510B523E24CC1E9E0047BADB /* Base */,
+				51ADC9CB265A7AD40011C469 /* ja */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		510B525724CC1E9E0047BADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		510B525824CC1E9E0047BADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		510B525A24CC1E9E0047BADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76CB6C7D6C922B1B4C5B8D4B /* Pods-TheBenzaRPG.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "TheBenzaRPG/The Benza RPG.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 74;
+				DEVELOPMENT_TEAM = 3NG3VUWAP5;
+				INFOPLIST_FILE = TheBenzaRPG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tokyo-cowboys.thebenza.rpg";
+				PRODUCT_NAME = "The Benza RPG";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		510B525B24CC1E9E0047BADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D76CD94C06FFC0068303B1C /* Pods-TheBenzaRPG.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "TheBenzaRPG/The Benza RPG.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 74;
+				DEVELOPMENT_TEAM = 3NG3VUWAP5;
+				INFOPLIST_FILE = TheBenzaRPG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tokyo-cowboys.thebenza.rpg";
+				PRODUCT_NAME = "The Benza RPG";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		510B525D24CC1E9E0047BADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 293KCAKVY4;
+				INFOPLIST_FILE = TheBenzaRPGTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Home.TheBenzaRPGTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheBenzaRPG.app/TheBenzaRPG";
+			};
+			name = Debug;
+		};
+		510B525E24CC1E9E0047BADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 293KCAKVY4;
+				INFOPLIST_FILE = TheBenzaRPGTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Home.TheBenzaRPGTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheBenzaRPG.app/TheBenzaRPG";
+			};
+			name = Release;
+		};
+		510B526024CC1E9E0047BADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 293KCAKVY4;
+				INFOPLIST_FILE = TheBenzaRPGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Home.TheBenzaRPGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheBenzaRPG;
+			};
+			name = Debug;
+		};
+		510B526124CC1E9E0047BADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 293KCAKVY4;
+				INFOPLIST_FILE = TheBenzaRPGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Home.TheBenzaRPGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheBenzaRPG;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		510B522A24CC1E9D0047BADB /* Build configuration list for PBXProject "TheBenzaRPG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510B525724CC1E9E0047BADB /* Debug */,
+				510B525824CC1E9E0047BADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		510B525924CC1E9E0047BADB /* Build configuration list for PBXNativeTarget "TheBenzaRPG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510B525A24CC1E9E0047BADB /* Debug */,
+				510B525B24CC1E9E0047BADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		510B525C24CC1E9E0047BADB /* Build configuration list for PBXNativeTarget "TheBenzaRPGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510B525D24CC1E9E0047BADB /* Debug */,
+				510B525E24CC1E9E0047BADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		510B525F24CC1E9E0047BADB /* Build configuration list for PBXNativeTarget "TheBenzaRPGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510B526024CC1E9E0047BADB /* Debug */,
+				510B526124CC1E9E0047BADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 510B522724CC1E9D0047BADB /* Project object */;
+}

@@ -1,0 +1,6 @@
+target 'TheBenzaRPG' do
+
+platform :ios, '13.3.1'
+use_frameworks!
+    pod "GCDWebServer"
+end
